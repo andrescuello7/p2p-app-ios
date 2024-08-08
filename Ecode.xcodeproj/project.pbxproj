@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5752302C600E8E005DD3CB /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57522F2C600E8E005DD3CB /* SplashScreenView.swift */; };
+		2F7C734A2C5C3FAB0066E7F1 /* SocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C73492C5C3FAB0066E7F1 /* SocketServer.swift */; };
+		2F7C734C2C5C415A0066E7F1 /* IpWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C734B2C5C415A0066E7F1 /* IpWifi.swift */; };
+		2F7C734F2C5C82D00066E7F1 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C734E2C5C82D00066E7F1 /* MessageView.swift */; };
+		2F7C73522C5C910A0066E7F1 /* UserFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C73512C5C910A0066E7F1 /* UserFactory.swift */; };
+		2F8A40E92C5D943E000D9D01 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8A40E82C5D943E000D9D01 /* MessageModel.swift */; };
+		2FAC9D722C646A21009A17B2 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC9D712C646A21009A17B2 /* AddressModel.swift */; };
+		2FAC9D752C647D26009A17B2 /* TypeMessageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC9D742C647D26009A17B2 /* TypeMessageEnum.swift */; };
+		2FB40C6F2C5E076F00A0BEA7 /* SessionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB40C6E2C5E076F00A0BEA7 /* SessionFactory.swift */; };
+		2FB549662C5AEBCF007B9F2F /* EcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549652C5AEBCF007B9F2F /* EcodeApp.swift */; };
+		2FB549682C5AEBCF007B9F2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549672C5AEBCF007B9F2F /* ContentView.swift */; };
+		2FB5496A2C5AEBD1007B9F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB549692C5AEBD1007B9F2F /* Assets.xcassets */; };
+		2FB5496E2C5AEBD1007B9F2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB5496D2C5AEBD1007B9F2F /* Preview Assets.xcassets */; };
+		2FB549782C5AEBD1007B9F2F /* EcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549772C5AEBD1007B9F2F /* EcodeTests.swift */; };
+		2FB549822C5AEBD1007B9F2F /* EcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549812C5AEBD1007B9F2F /* EcodeUITests.swift */; };
+		2FB549842C5AEBD1007B9F2F /* EcodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549832C5AEBD1007B9F2F /* EcodeUITestsLaunchTests.swift */; };
+		2FB549922C5AEE1D007B9F2F /* AccountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549912C5AEE1D007B9F2F /* AccountRow.swift */; };
+		2FB549942C5AEE8D007B9F2F /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549932C5AEE8D007B9F2F /* AdView.swift */; };
+		2FB549992C5AF654007B9F2F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549982C5AF654007B9F2F /* UserModel.swift */; };
+		2FB5499D2C5AF68B007B9F2F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB5499C2C5AF68B007B9F2F /* LoginView.swift */; };
+		2FB549A12C5AF6C7007B9F2F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549A02C5AF6C7007B9F2F /* LoginController.swift */; };
+		2FB549A32C5AF6DE007B9F2F /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549A22C5AF6DE007B9F2F /* MessageController.swift */; };
+		2FB549A52C5B34CF007B9F2F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB549A42C5B34CF007B9F2F /* InputView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FB549742C5AEBD1007B9F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB5495A2C5AEBCF007B9F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB549612C5AEBCF007B9F2F;
+			remoteInfo = Ecode;
+		};
+		2FB5497E2C5AEBD1007B9F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB5495A2C5AEBCF007B9F2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB549612C5AEBCF007B9F2F;
+			remoteInfo = Ecode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F57522F2C600E8E005DD3CB /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		2F7C73492C5C3FAB0066E7F1 /* SocketServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketServer.swift; sourceTree = "<group>"; };
+		2F7C734B2C5C415A0066E7F1 /* IpWifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpWifi.swift; sourceTree = "<group>"; };
+		2F7C734E2C5C82D00066E7F1 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		2F7C73512C5C910A0066E7F1 /* UserFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFactory.swift; sourceTree = "<group>"; };
+		2F8A40E82C5D943E000D9D01 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		2FAC9D712C646A21009A17B2 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		2FAC9D742C647D26009A17B2 /* TypeMessageEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeMessageEnum.swift; sourceTree = "<group>"; };
+		2FB40C6E2C5E076F00A0BEA7 /* SessionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionFactory.swift; sourceTree = "<group>"; };
+		2FB549622C5AEBCF007B9F2F /* Ecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB549652C5AEBCF007B9F2F /* EcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcodeApp.swift; sourceTree = "<group>"; };
+		2FB549672C5AEBCF007B9F2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FB549692C5AEBD1007B9F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FB5496B2C5AEBD1007B9F2F /* Ecode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ecode.entitlements; sourceTree = "<group>"; };
+		2FB5496D2C5AEBD1007B9F2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FB549732C5AEBD1007B9F2F /* EcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB549772C5AEBD1007B9F2F /* EcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcodeTests.swift; sourceTree = "<group>"; };
+		2FB5497D2C5AEBD1007B9F2F /* EcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB549812C5AEBD1007B9F2F /* EcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcodeUITests.swift; sourceTree = "<group>"; };
+		2FB549832C5AEBD1007B9F2F /* EcodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FB549912C5AEE1D007B9F2F /* AccountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRow.swift; sourceTree = "<group>"; };
+		2FB549932C5AEE8D007B9F2F /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		2FB549982C5AF654007B9F2F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2FB5499C2C5AF68B007B9F2F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2FB549A02C5AF6C7007B9F2F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2FB549A22C5AF6DE007B9F2F /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		2FB549A42C5B34CF007B9F2F /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB5495F2C5AEBCF007B9F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB549702C5AEBD1007B9F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB5497A2C5AEBD1007B9F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F7C734D2C5C7EFC0066E7F1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C73492C5C3FAB0066E7F1 /* SocketServer.swift */,
+				2F7C734B2C5C415A0066E7F1 /* IpWifi.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		2F7C73502C5C90F40066E7F1 /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C73512C5C910A0066E7F1 /* UserFactory.swift */,
+				2FB40C6E2C5E076F00A0BEA7 /* SessionFactory.swift */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
+		2FAC9D732C647D05009A17B2 /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC9D742C647D26009A17B2 /* TypeMessageEnum.swift */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		2FAC9D762C649422009A17B2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC9D732C647D05009A17B2 /* enums */,
+				2F7C73502C5C90F40066E7F1 /* factory */,
+				2FB549962C5AF604007B9F2F /* models */,
+				2FAC9D772C649444009A17B2 /* ui */,
+				2F7C734D2C5C7EFC0066E7F1 /* utils */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2FAC9D772C649444009A17B2 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				2FB549902C5AEDEF007B9F2F /* components */,
+				2FB549972C5AF628007B9F2F /* screen_controllers */,
+				2FB549952C5AF5AD007B9F2F /* screens */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		2FAC9D782C649518009A17B2 /* values */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		2FB549592C5AEBCF007B9F2F = {
+			isa = PBXGroup;
+			children = (
+				2FB549642C5AEBCF007B9F2F /* Ecode */,
+				2FB549762C5AEBD1007B9F2F /* EcodeTests */,
+				2FB549802C5AEBD1007B9F2F /* EcodeUITests */,
+				2FB549632C5AEBCF007B9F2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FB549632C5AEBCF007B9F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB549622C5AEBCF007B9F2F /* Ecode.app */,
+				2FB549732C5AEBD1007B9F2F /* EcodeTests.xctest */,
+				2FB5497D2C5AEBD1007B9F2F /* EcodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FB549642C5AEBCF007B9F2F /* Ecode */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC9D762C649422009A17B2 /* src */,
+				2FAC9D782C649518009A17B2 /* values */,
+				2FB549652C5AEBCF007B9F2F /* EcodeApp.swift */,
+				2FB549672C5AEBCF007B9F2F /* ContentView.swift */,
+				2FB549692C5AEBD1007B9F2F /* Assets.xcassets */,
+				2FB5496B2C5AEBD1007B9F2F /* Ecode.entitlements */,
+				2FB5496C2C5AEBD1007B9F2F /* Preview Content */,
+			);
+			path = Ecode;
+			sourceTree = "<group>";
+		};
+		2FB5496C2C5AEBD1007B9F2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FB5496D2C5AEBD1007B9F2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FB549762C5AEBD1007B9F2F /* EcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB549772C5AEBD1007B9F2F /* EcodeTests.swift */,
+			);
+			path = EcodeTests;
+			sourceTree = "<group>";
+		};
+		2FB549802C5AEBD1007B9F2F /* EcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB549812C5AEBD1007B9F2F /* EcodeUITests.swift */,
+				2FB549832C5AEBD1007B9F2F /* EcodeUITestsLaunchTests.swift */,
+			);
+			path = EcodeUITests;
+			sourceTree = "<group>";
+		};
+		2FB549902C5AEDEF007B9F2F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				2FB549912C5AEE1D007B9F2F /* AccountRow.swift */,
+				2FB549A42C5B34CF007B9F2F /* InputView.swift */,
+				2FB549932C5AEE8D007B9F2F /* AdView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		2FB549952C5AF5AD007B9F2F /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				2FB5499C2C5AF68B007B9F2F /* LoginView.swift */,
+				2F7C734E2C5C82D00066E7F1 /* MessageView.swift */,
+				2F57522F2C600E8E005DD3CB /* SplashScreenView.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		2FB549962C5AF604007B9F2F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2FB549982C5AF654007B9F2F /* UserModel.swift */,
+				2F8A40E82C5D943E000D9D01 /* MessageModel.swift */,
+				2FAC9D712C646A21009A17B2 /* AddressModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2FB549972C5AF628007B9F2F /* screen_controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FB549A02C5AF6C7007B9F2F /* LoginController.swift */,
+				2FB549A22C5AF6DE007B9F2F /* MessageController.swift */,
+			);
+			path = screen_controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FB549612C5AEBCF007B9F2F /* Ecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB549872C5AEBD1007B9F2F /* Build configuration list for PBXNativeTarget "Ecode" */;
+			buildPhases = (
+				2FB5495E2C5AEBCF007B9F2F /* Sources */,
+				2FB5495F2C5AEBCF007B9F2F /* Frameworks */,
+				2FB549602C5AEBCF007B9F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecode;
+			productName = Ecode;
+			productReference = 2FB549622C5AEBCF007B9F2F /* Ecode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FB549722C5AEBD1007B9F2F /* EcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB5498A2C5AEBD1007B9F2F /* Build configuration list for PBXNativeTarget "EcodeTests" */;
+			buildPhases = (
+				2FB5496F2C5AEBD1007B9F2F /* Sources */,
+				2FB549702C5AEBD1007B9F2F /* Frameworks */,
+				2FB549712C5AEBD1007B9F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB549752C5AEBD1007B9F2F /* PBXTargetDependency */,
+			);
+			name = EcodeTests;
+			productName = EcodeTests;
+			productReference = 2FB549732C5AEBD1007B9F2F /* EcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FB5497C2C5AEBD1007B9F2F /* EcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB5498D2C5AEBD1007B9F2F /* Build configuration list for PBXNativeTarget "EcodeUITests" */;
+			buildPhases = (
+				2FB549792C5AEBD1007B9F2F /* Sources */,
+				2FB5497A2C5AEBD1007B9F2F /* Frameworks */,
+				2FB5497B2C5AEBD1007B9F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB5497F2C5AEBD1007B9F2F /* PBXTargetDependency */,
+			);
+			name = EcodeUITests;
+			productName = EcodeUITests;
+			productReference = 2FB5497D2C5AEBD1007B9F2F /* EcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FB5495A2C5AEBCF007B9F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2FB549612C5AEBCF007B9F2F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2FB549722C5AEBD1007B9F2F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2FB549612C5AEBCF007B9F2F;
+					};
+					2FB5497C2C5AEBD1007B9F2F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2FB549612C5AEBCF007B9F2F;
+					};
+				};
+			};
+			buildConfigurationList = 2FB5495D2C5AEBCF007B9F2F /* Build configuration list for PBXProject "Ecode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FB549592C5AEBCF007B9F2F;
+			productRefGroup = 2FB549632C5AEBCF007B9F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FB549612C5AEBCF007B9F2F /* Ecode */,
+				2FB549722C5AEBD1007B9F2F /* EcodeTests */,
+				2FB5497C2C5AEBD1007B9F2F /* EcodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FB549602C5AEBCF007B9F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB5496E2C5AEBD1007B9F2F /* Preview Assets.xcassets in Resources */,
+				2FB5496A2C5AEBD1007B9F2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB549712C5AEBD1007B9F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB5497B2C5AEBD1007B9F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB5495E2C5AEBCF007B9F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB549A12C5AF6C7007B9F2F /* LoginController.swift in Sources */,
+				2FB40C6F2C5E076F00A0BEA7 /* SessionFactory.swift in Sources */,
+				2FB549922C5AEE1D007B9F2F /* AccountRow.swift in Sources */,
+				2FAC9D722C646A21009A17B2 /* AddressModel.swift in Sources */,
+				2FB5499D2C5AF68B007B9F2F /* LoginView.swift in Sources */,
+				2FB549682C5AEBCF007B9F2F /* ContentView.swift in Sources */,
+				2FB549A32C5AF6DE007B9F2F /* MessageController.swift in Sources */,
+				2F7C734C2C5C415A0066E7F1 /* IpWifi.swift in Sources */,
+				2F7C734F2C5C82D00066E7F1 /* MessageView.swift in Sources */,
+				2FB549662C5AEBCF007B9F2F /* EcodeApp.swift in Sources */,
+				2F5752302C600E8E005DD3CB /* SplashScreenView.swift in Sources */,
+				2F8A40E92C5D943E000D9D01 /* MessageModel.swift in Sources */,
+				2FB549A52C5B34CF007B9F2F /* InputView.swift in Sources */,
+				2F7C734A2C5C3FAB0066E7F1 /* SocketServer.swift in Sources */,
+				2FAC9D752C647D26009A17B2 /* TypeMessageEnum.swift in Sources */,
+				2FB549992C5AF654007B9F2F /* UserModel.swift in Sources */,
+				2F7C73522C5C910A0066E7F1 /* UserFactory.swift in Sources */,
+				2FB549942C5AEE8D007B9F2F /* AdView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB5496F2C5AEBD1007B9F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB549782C5AEBD1007B9F2F /* EcodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB549792C5AEBD1007B9F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB549822C5AEBD1007B9F2F /* EcodeUITests.swift in Sources */,
+				2FB549842C5AEBD1007B9F2F /* EcodeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB549752C5AEBD1007B9F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB549612C5AEBCF007B9F2F /* Ecode */;
+			targetProxy = 2FB549742C5AEBD1007B9F2F /* PBXContainerItemProxy */;
+		};
+		2FB5497F2C5AEBD1007B9F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB549612C5AEBCF007B9F2F /* Ecode */;
+			targetProxy = 2FB5497E2C5AEBD1007B9F2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FB549852C5AEBD1007B9F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FB549862C5AEBD1007B9F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2FB549882C5AEBD1007B9F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ecode/Ecode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ecode/Preview Content\"";
+				DEVELOPMENT_TEAM = CHMV7MAQ2J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fivedrive.Ecode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FB549892C5AEBD1007B9F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ecode/Ecode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ecode/Preview Content\"";
+				DEVELOPMENT_TEAM = CHMV7MAQ2J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fivedrive.Ecode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FB5498B2C5AEBD1007B9F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHMV7MAQ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fivedrive.EcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecode";
+			};
+			name = Debug;
+		};
+		2FB5498C2C5AEBD1007B9F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHMV7MAQ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fivedrive.EcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecode.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecode";
+			};
+			name = Release;
+		};
+		2FB5498E2C5AEBD1007B9F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHMV7MAQ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fivedrive.EcodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecode;
+			};
+			name = Debug;
+		};
+		2FB5498F2C5AEBD1007B9F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHMV7MAQ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fivedrive.EcodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ecode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB5495D2C5AEBCF007B9F2F /* Build configuration list for PBXProject "Ecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB549852C5AEBD1007B9F2F /* Debug */,
+				2FB549862C5AEBD1007B9F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB549872C5AEBD1007B9F2F /* Build configuration list for PBXNativeTarget "Ecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB549882C5AEBD1007B9F2F /* Debug */,
+				2FB549892C5AEBD1007B9F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB5498A2C5AEBD1007B9F2F /* Build configuration list for PBXNativeTarget "EcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB5498B2C5AEBD1007B9F2F /* Debug */,
+				2FB5498C2C5AEBD1007B9F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB5498D2C5AEBD1007B9F2F /* Build configuration list for PBXNativeTarget "EcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB5498E2C5AEBD1007B9F2F /* Debug */,
+				2FB5498F2C5AEBD1007B9F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FB5495A2C5AEBCF007B9F2F /* Project object */;
+}
